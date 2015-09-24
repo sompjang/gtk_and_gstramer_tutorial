@@ -584,7 +584,7 @@ gboolean GST_Streamer::bus_call(GstBus *bus, GstMessage *msg, gpointer data) {
 		guint cbuffer , mbuffer ;
 		guint cbytes , mbytes ; 
 		guint64 ctime , mtime ;
-		guint hpercent, lpercent;
+		guint hpercent, lpercent; 
 
 		if (streamer->elements[2]) {
 			g_object_get(streamer->elements[2],
